@@ -86,7 +86,5 @@ do "${code_clean}/data_structure_cc.do"
     This step uses the cleaned data files to reproduce all tables and figures
 ------------------------------------------------------------------------------*/
 
-do "${code_clean}/data_structure.do"
-do "${code_clean}/data_structure_cc.do"
 do "${code_analysis}/analysis.do"
 
