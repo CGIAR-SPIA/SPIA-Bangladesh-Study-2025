@@ -35,34 +35,6 @@ OUTPUT: Cleaned modules
 	set more off, permanently
 	capture log close // capture avoids code interruptions 	
 	
-* Automatic slash detection based on operating system (cross-OS compatibility) - added by MK, 02/10/2025
-	if c(os) == "Windows" {
-		global slash "\"
-	}
-	else {
-		global slash "/"
-	}
-	
-	
-	* Note - insert your directory: 
-	* gl dir "/Users/ssingl01/Dropbox/SPIA General/SPIA 2019-2024/5. OBJ.3-Data collection/Country teams/Bangladesh/Stocktake and supporting documents/BIHS/Replication package"
-	
-	* Windows directory:
-	gl dir "C:/Country Studies - Bangladesh/Replication package"
-	
-	cd "$dir"  
-   
-    * Define all subdirectories using the slash global
-	gl raw_data "${dir}${slash}Data${slash}Raw"
-	gl final_data "${dir}${slash}Data${slash}Final"
-	gl temp_data "${dir}${slash}Data${slash}Temp"
-	gl dna_data "${dir}${slash}Data${slash}DNA fingerprinting"
-	
-	gl bihs2018 "${dir}${slash}Data${slash}Prior Waves${slash}Third Round (2018-2019)"
-	gl bihs2015 "${dir}${slash}Data${slash}Prior Waves${slash}Second Round (2015-2016)"
-	gl bihs2012 "${dir}${slash}Data${slash}Prior Waves${slash}First Round (2011-2012)"
-	
-	gl dna_table "${dir}${slash}Output${slash}Tables${slash}DNA_Tables"
 	
 	**# Preparing the module a1 identifier dataset
 	

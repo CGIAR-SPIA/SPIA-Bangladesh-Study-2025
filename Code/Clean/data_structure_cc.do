@@ -32,25 +32,6 @@ OUTPUT: Final community survey datasets
 	set more off, permanently
 	capture log close // capture avoids code interruptions 	
 	
-	* Automatic slash detection based on operating system (cross-OS compatibility)
-	if c(os) == "Windows" {
-		global slash "\"
-	}
-	else {
-		global slash "/"
-	}
-	
-	* Note - insert your directory: 
-	gl dir "C:\Country Studies - Bangladesh\Replication package"
-	
-	cd "$dir"  
-   
-    * Define all subdirectories using the slash global
-	gl raw_data "${dir}${slash}Data${slash}Raw"
-	gl cc_data "${dir}${slash}Data${slash}Final${slash}CC"
-	gl bihs2018 "${dir}${slash}Data${slash}Prior Waves${slash}Third Round (2018-2019)"
-	gl bihs2015 "${dir}${slash}Data${slash}Prior Waves${slash}Second Round (2015-2016)"
-	gl bihs2012 "${dir}${slash}Data${slash}Prior Waves${slash}First Round (2011-2012)"
 	
 	u "${bihs2018}${slash}r3_male_mod_a_001_BIHS.dta", clear
 	
