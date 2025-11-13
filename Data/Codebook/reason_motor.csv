@@ -1,0 +1,7 @@
+reason_motor,english,bangla
+1,No BMDA tube well,বিএমডিএ (সরকারি) নলকূপ নেই
+2,Serial was late,সিরিয়াল দেরী ছিল
+3,I missed my place in the serial,আমি সিরিয়াল এ আমার জায়গা মিস করেছি
+4,BMDA pump stopped working,বিএমডিএ পাম্প কাজ করেছে না
+5,Electricity problems in pumping the BMDA pump,বিএমডিএ পাম্পে বিদ্যুতের সমস্যা
+-96,Other (specify),অন্যান্য (নির্দিষ্ট করুন)

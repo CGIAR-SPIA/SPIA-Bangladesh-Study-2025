@@ -1,0 +1,29 @@
+classcode,english,bangla
+-1,Never attended school ,কখনো স্কুল/মাদ্রাসায় যায়নি
+-2,Reads in pre-primary,প্রাক প্রাথমিকে পড়ছে
+0,Reads in class I,১ম শ্রেণীতে পড়ছে
+1,Completed class I,১ম শ্রেণী পাশ করেছে
+2,Completed class II,2য় শ্রেণী পাশ করেছে
+3,Completed class III  ,৩য় শ্রেণী পাশ করেছে
+4,Completed class IV ,৪র্থ শ্রেণী পাশ করেছে
+5,Completed class V,৫ম শ্রেণী পাশ করেছে
+6,Completed class VI  ,৬ষ্ঠ শ্রেণী পাশ করেছে
+7,Completed class VII ,৭ম শ্রেণী পাশ করেছে
+8,Completed class VIII,৮ম শ্রেণী পাশ করেছে
+9,Completed class IX,৯ম শ্রেণী পাশ করেছে
+10,Completed Secondary School/Dakhil ,SSC/দাখিল
+11,HSC/Alim First Year,HSC/আলিম ১ম বর্ষ
+12,Completed HSC/Alim,HSC/আলিম
+13,BA/BSC/Fazil First Year ,BA/BSC/ফাজিল ১ম বর্ষ
+14,BA/BSC/Fazil Second Year ,BA/BSC/ফাজিল ২য় বর্ষ
+15,BA/BSC/Fazil Third Year ,BA/BSC/ফাজিল তৃতীয় বর্ষ
+16,BA/BSC/Fazil Fourth Year  ,BA/BSC/ফাজিল চতুর্থ বর্ষ
+17,MA/MSC and above/Kamil ,MA/MSC ও উর্দ্ধে কামিল
+18,SSC Candidate ,SSC পরীক্ষার্থী
+19,HSC Candidate,HSC পরীক্ষার্থী
+20,Medical/MBBS ,মেডিকাল/MBBS
+21,Nursing,নার্সিং
+22,Engineer ,ইঞ্জিনিয়ার
+23,Diploma Engineer ,Diploma ইঞ্জিনিয়ার
+24,Vocational/Technical Education,ভকেশনাল(বৃত্তিমুলক)/কারিগরি শিক্ষা
+-96,Other (specify),অন্যান্য (উল্লেখ করুন)

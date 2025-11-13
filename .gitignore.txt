@@ -1,0 +1,13 @@
+# Stata temporary files
+*.dta~
+*.do~
+*.smcl
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Stata graph temporary files
+*.gph
