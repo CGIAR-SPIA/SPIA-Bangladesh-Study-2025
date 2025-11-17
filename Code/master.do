@@ -2,7 +2,6 @@
     MASTER SCRIPT - Bangladesh Country Study Replication Package
     
     Purpose: Centralized directory management and script execution
-    Author: Milcah Kirinyet
     Date: November 13, 2025
     
 ==============================================================================*/
@@ -64,6 +63,7 @@ global final_table "${dir}${slash}Output${slash}Tables"
 global dna_table "${final_table}${slash}DNA_Tables"
 
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+do "${code_clean}/data_structure.do"
+do "${code_clean}/data_structure_cc.do"
 do "${code_analysis}/analysis.do"
 
