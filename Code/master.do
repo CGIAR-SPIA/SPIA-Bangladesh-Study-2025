@@ -14,7 +14,7 @@ set more off
     DIRECTORY CONFIGURATION
     
     ** MODIFY THIS PATH TO MATCH YOUR LOCAL SETUP **
-    Change the path below to wherever you cloned/downloaded the repository
+    Change the path below to wherever you cloned the repository
 ------------------------------------------------------------------------------*/
 
 global dir "C:/Country Studies - Bangladesh/Replication package"
@@ -63,28 +63,7 @@ global final_figure "${dir}${slash}Output${slash}Figures"
 global final_table "${dir}${slash}Output${slash}Tables"
 global dna_table "${final_table}${slash}DNA_Tables"
 
-/*
-    DATA CLEANING SCRIPTS (Optional - Repository includes cleaned data)
-    
-    Uncomment the sections below ONLY if you need to:
-    - Rebuild cleaned datasets from raw data
-    - Modify the data cleaning process
-    - Work with updated raw data files
-    
-    For most users: Skip to STEP 3 (Analysis) below
-
-* STEP 1: Process Household Survey Data
-do "${code_clean}/data_structure.do"
-
-* STEP 2: Process Community Survey Data
-do "${code_clean}/data_structure_cc.do"
-*/
-
-/*------------------------------------------------------------------------------
-    STEP 3: Run Analysis and Generate Output
-    
-    This step uses the cleaned data files to reproduce all tables and figures
-------------------------------------------------------------------------------*/
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 do "${code_clean}/data_structure.do"
 do "${code_clean}/data_structure_cc.do"

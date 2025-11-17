@@ -6112,7 +6112,7 @@ recode c2paddy_mainvariety -86/-83=116 if c2paddymainvariety=="Swarna pass" | c2
 	********************************************************************************  
 	 {
 	** D1-A *** 
-	use "${temp_data}${slash}SPIA_BIHS_Main_2024_module_a2hhroster_labelled_deidentified.dta", clear
+	use "${temp_data}${slash}SPIA_BIHS_Main_2024_module_a2hhroster_labelled_deidentified_new.dta", clear
 	
 	keep a1hhid_combined module_d1_count SETOFmodule_d1
 	rename SETOFmodule_d1 setofmodule_d1
@@ -6234,7 +6234,7 @@ recode c2paddy_mainvariety -86/-83=116 if c2paddymainvariety=="Swarna pass" | c2
 	
 	*** D1-B ***
 	
-	use "${temp_data}${slash}SPIA_BIHS_Main_2024_module_a2hhroster_labelled_deidentified.dta", clear
+	use "${temp_data}${slash}SPIA_BIHS_Main_2024_module_a2hhroster_labelled_deidentified_new.dta", clear
 	keep a1hhid_combined SETOFmodule_d1_2
 	rename SETOFmodule_d1_2 setofmodule_d1_2
 	collapse (first) a1hhid_combined , by(setofmodule_d1_2) // 2741 unique obs
