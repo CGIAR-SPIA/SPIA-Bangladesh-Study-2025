@@ -63,6 +63,7 @@ global final_table "${dir}${slash}Output${slash}Tables"
 global dna_table "${final_table}${slash}DNA_Tables"
 
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do "${code_clean}/download_data.do"
 do "${code_clean}/data_structure.do"
 do "${code_clean}/data_structure_cc.do"
 do "${code_analysis}/analysis.do"
