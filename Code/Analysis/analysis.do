@@ -27,34 +27,34 @@ OUTPUT: Report graphs and tables
 	adoupdate odksplit, update
 	
 	cap which coefplot
-	if _rc ssc install coefplot
+	if _rc ssc install coefplot, replace
 	
 	cap which shp2dta
-	if _rc ssc install shp2dta
+	if _rc ssc install shp2dta, replace
 	
 	cap which spmap
-	if _rc ssc install spmap
+	if _rc ssc install spmap, replace
 	
 	cap which winsor2
-	if _rc ssc install winsor2
+	if _rc ssc install winsor2, replace
 	
 	cap which winsor
-	if _rc ssc install winsor
+	if _rc ssc install winsor, replace
 
 	cap which catplot
-	if _rc ssc install catplot
+	if _rc ssc install catplot, replace
 	
 	cap which palettes
-	if _rc ssc install palettes
+	if _rc ssc install palettes, replace
 	
 	cap which colrspace
-	if _rc ssc install colrspace
+	if _rc ssc install colrspace, replace
 	
 	cap which graphfunctions
-	if _rc ssc install graphfunctions
+	if _rc ssc install graphfunctions, replace
 	
 	cap which unique
-	if _rc ssc install unique
+	if _rc ssc install unique, replace
 	
 	
 	
@@ -65,10 +65,10 @@ OUTPUT: Report graphs and tables
 	net install sankey, from("https://raw.githubusercontent.com/asjadnaqvi/stata-sankey/main/installation/") replace
 	
 	cap which grc1leg2
-	if _rc ssc install grc1leg2
+	if _rc ssc install grc1leg2, replace
 	
 	cap which schemepack
-	if _rc ssc install schemepack
+	if _rc ssc install schemepack, replace
 	
 	**# Setting globals
 	
