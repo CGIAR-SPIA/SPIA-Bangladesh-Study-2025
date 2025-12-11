@@ -51,12 +51,12 @@ Bangladesh Study 2025: Updating the Green Revolution. Rome. Standing Panel on Im
 Assessment (SPIA)
 
 # Acknowledgements
-[To be added]
+We thank the contributors acknowledged in the report, please see the report linked above.
 
 # Contact & Support
 Primary Contact: SPIA (spia@cgiar.org)
 
 
-License
+# License
 
 Appropriate permission are documented in the **[LICENSE.txt](https://osf.io/v9jtu)** file.

@@ -1,4 +1,4 @@
-* Download raw data from GitHub Release
+* Download BIHS data hosted on GitHub
 
 clear all
 
