@@ -1,6 +1,6 @@
 Welcome to this repository, which contains the replication files for SPIA Bangladesh Study 2025: Updating the Green Revolution by Saumya Singla, Tanjim Ul Islam, Fuad Hassan, Isabella Monteiro, James Stevenson, Kyle Emeric.
 
-This repository provides the code and supporting data needed to reproduce the tables and figures in the report using datasets from the Bangladesh Integrated Household Survey (BIHS).
+This repository provides the code, data and supporting documentation needed to reproduce the tables and figures in the report.
 
 
 The repo is structured as follows:
@@ -42,8 +42,6 @@ Includes the BIHS household and community survey questionnaires, resurvey CAPI i
       - Storage: 2 GB minimum
       - Runtime: ~2 hours for full workflow
 -	Edit the directory of the global “dir” in the master do files prior to running. `global dir "C:/your/path/to/repository" `
--	For the household dataset, execute the do file data_structure first, then the analysis do file
--	For the community survey dataset, execute the data_structure_cc do file.
 
  # Citation
 Singla, S., Ul Islam, T., Hassan, F., Monteiro, I., Stevenson, J.,Emerick, K. (2025). SPIA 
