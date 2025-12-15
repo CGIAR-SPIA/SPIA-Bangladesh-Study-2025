@@ -1,4 +1,4 @@
-Welcome to this repository, which contains the replication files for SPIA Bangladesh Study 2025: Updating the Green Revolution by Saumya Singla, Tanjim Ul Islam, Fuad Hassan, Isabella Monteiro, James Stevenson, Kyle Emeric.
+Welcome to this repository, which contains the replication files for SPIA Bangladesh Study 2025: Updating the Green Revolution by Saumya Singla, Tanjim Ul Islam, Fuad Hassan, Isabella Monteiro, James Stevenson, Kyle Emerick.
 
 This repository provides the code, data and supporting documentation needed to reproduce the tables and figures in the report.
 
