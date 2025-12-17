@@ -1,4 +1,4 @@
-Welcome to this repository, which contains the replication files for **[SPIA Bangladesh Study 2025: Updating the Green Revolution](https://iaes.cgiar.org/spia/publications/spia-bangladesh-study-2025-updating-green-revolution)** (December 2025) by Saumya Singla, Tanjim Ul Islam, Fuad Hassan, Isabella Monteiro, James Stevenson, Kyle Emerick.
+Welcome to this repository, which contains the replication files for **[SPIA Bangladesh Study 2025: Updating the Green Revolution](https://iaes.cgiar.org/spia/publications/spia-bangladesh-study-2025-updating-green-revolution)** by Saumya Singla, Tanjim Ul Islam, Fuad Hassan, Isabella Monteiro, James Stevenson, Kyle Emerick.
 
 This repository provides the code, data and supporting documentation needed to reproduce the tables and figures in the report.
 
