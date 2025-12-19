@@ -27,6 +27,8 @@ OUTPUT: Cleaned modules
 				from("https://raw.githubusercontent.com/ARCED-Foundation/odksplit/master")
 	adoupdate odksplit, update	
 	
+    cap which missings
+    if _rc ssc install missings, replace
 	
 	**# Setting globals
 	
